@@ -1,0 +1,14 @@
+#!/usr/bin/with-contenv bash
+
+echo "
+-------------------------------------
+GID/UID
+-------------------------------------
+User uid:    $(id -u `whoami`)
+User gid:    $(id -g `whoami`)
+-------------------------------------
+"
+
+chown `whoami`:`whoami` /app
+chown `whoami`:`whoami` /config
+chown `whoami`:`whoami` /defaults
