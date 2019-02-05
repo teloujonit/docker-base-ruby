@@ -1,4 +1,4 @@
-FROM ruby:2.6-alpine3.8
+FROM ruby:2.6.0-alpine3.8
 
 LABEL maintainer="Louis Taylor <lt@teloujon.com>"
 
