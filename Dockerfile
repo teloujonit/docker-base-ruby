@@ -1,9 +1,9 @@
-FROM ruby:2.6-alpine3.8
+FROM ruby:2.6.1-alpine3.9
 
 LABEL maintainer="Louis Taylor <lt@teloujon.com>"
 
 # s6 overlay version
-ARG OVERLAY_VERSION="v1.21.7.0"
+ARG OVERLAY_VERSION="v1.21.8.0"
 ARG OVERLAY_ARCH="amd64"
 
 # environment variables
